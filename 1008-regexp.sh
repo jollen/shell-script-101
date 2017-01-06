@@ -8,3 +8,6 @@ if [[ "$STRING" =~ ^([a-z]) ]]; then
 else 
     echo "$STRING is Fail"; 
 fi
+
+# Remove non digit
+echo ${STRING//[^[:digit:]]/}

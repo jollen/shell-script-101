@@ -15,3 +15,4 @@ Shell Script 101
 * Traps, http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_02.html
 * The library defines verbal constants and functions for terminal colors, https://github.com/maxtsepkov/bash_colors
 * Quick-Start: Regex Cheat Sheet, http://www.rexegg.com/regex-quickstart.html
+* Unix - Regular Expressions with SED, https://www.tutorialspoint.com/unix/unix-regular-expressions.htm

@@ -6,6 +6,8 @@ CHAR='@'
 DIRECTION=0
 
 function move {
+  ( sleep 0.5  && kill -ALRM $$ ) &
+
   case "$DIRECTION" in
   0)
     POSY=$(($POSY - 1))
@@ -26,6 +28,12 @@ function move {
 }
 
 clear
+
+# Set to cursor to be invisible
+echo -e "\033[?25l"
+
+trap move ALRM
+move
 
 while :
 do

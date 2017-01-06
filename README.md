@@ -13,3 +13,5 @@ Shell Script 101
 * http://www.tldp.org/LDP/abs/html/io-redirection.html
 * tput, http://linuxcommand.org/lc3_adv_tput.php
 * Traps, http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_12_02.html
+* The library defines verbal constants and functions for terminal colors, https://github.com/maxtsepkov/bash_colors
+* Quick-Start: Regex Cheat Sheet, http://www.rexegg.com/regex-quickstart.html
